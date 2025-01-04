@@ -210,3 +210,15 @@ https://github.com/k2so-dev/laravel-nuxt/assets/15279423/9b134491-1444-4323-a7a3
 
 ## License
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fk2so-dev%2Flaravel-nuxt.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fk2so-dev%2Flaravel-nuxt?ref=badge_large)
+
+
+## Deploy On ZaCloud
+
+### Pre Run Commands
+- `php artisan octane:install --server=frankenphp --no-interaction`
+- `php artisan migrate && php artisan db:seed` runs first time only
+
+
+### Run Command
+- `npm run serve & php artisan octane:start`
+

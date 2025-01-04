@@ -10,7 +10,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "api": "php artisan octane:start --watch"
+    "api": "php artisan octane:start",
+    "start": "npm run serve & npm run api"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.7.0",
